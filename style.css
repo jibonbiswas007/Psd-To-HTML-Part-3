@@ -1,0 +1,222 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Your template name 
+    Template URI: http://bootexperts.com
+    Description: This is html5 template
+    Author: BootExperts
+    Author URI: http://bootexperts.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS (body, link color, section etc)
+
+-----------------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i|Ubuntu:300,300i,400,400i,500,500i,700,700i');
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+html, body {height: 100%;}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:15px;margin-bottom: 15px}
+.alignright {float:right;margin-left:15px;margin-bottom: 15px}
+.aligncenter {display:block;margin:0 auto 15px}
+a:focus {outline:0px solid}
+img {max-width:100%;height:auto}
+.fix {overflow:hidden}
+p {margin:0 0 0;}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+    font-weight: 400;
+}
+a {transition: all 0.3s ease 0s;text-decoration:none;}
+a:hover {
+  color: #ec4445;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+}
+ul{
+list-style: outside none none;
+margin: 0;
+padding: 0
+}
+.clear{clear:both}
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #626262;
+    line-height: 24px;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.blog-meta a, .blog-read-more-btn {
+    font-family: font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+
+/*-----------------------------------------------
+                Header Area
+-----------------------------------------------*/
+
+.logo {
+  padding: 75px 0;
+}
+.logo img {}
+.mainmenu {}
+.mainmenu ul {}
+.mainmenu ul li {
+  display: inline-block;
+}
+.mainmenu ul li a {
+  color: #626262;
+  display: block;
+  padding-bottom: 75px;
+  padding-left: 95px;
+  padding-top: 75px;
+  text-transform: uppercase;
+}
+/*-----------------------------------------------
+                Blog Area
+-----------------------------------------------*/
+.single-blog-item {
+  margin-bottom: 120px;
+}
+.blog-fetured-content {
+  margin-bottom: 30px;
+}
+.blog-fetured-content img {
+  width: 100%;
+}
+.big-blog-box .blog-fetured-content {
+  margin-bottom: 90px;
+}
+.blog-meta {}
+.blog-meta a {
+  color: #b4ad9e;
+  text-transform: uppercase;
+}
+.single-blog-item h2 a {
+  color: #626262;
+}
+.single-blog-item h2 {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.single-blog-item .blog-read-more-btn {
+  color: #b4ad9e;
+  text-transform: uppercase;
+}
+.blog-box-content {
+    margin-bottom: 55px;
+}
+/*-----------------------------------------------
+                newslatter-area
+-----------------------------------------------*/
+
+.newslatter-area {
+  background: #f0f0f0 none repeat scroll 0 0;
+  padding: 70px 0;
+  margin-bottom: 120px;
+}
+.newslatter-area h2 {
+  color: #333333;
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+.newslatter-form {
+  margin: 0 auto;
+  max-width: 364px;
+}
+.newslatter-form form {
+    position: relative;
+}
+.newslatter-form form input[type="email"] {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border-color: currentcolor currentcolor #000000;
+  border-image: none;
+  border-style: none none solid;
+  border-width: medium medium 1px;
+  padding: 3px 0;
+  width: 100%;
+}
+.newslatter-form form button {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  bottom: 0;
+  padding: 4px;
+  position: absolute;
+  right: 0;
+}
+.load-more-btn-wrapper {
+  margin-bottom: 100px;
+  margin-top: -20px;
+}
+.load-more-btn-wrapper .load-more-btn {
+  border: 1px solid #626262;
+  color: #626262;
+  display: inline-block;
+  font-size: 20px;
+  padding: 15px 30px;
+}
+.load-more-btn-wrapper .load-more-btn:hover {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: #7cc54b none repeat scroll 0 0;
+  border-bottom: 1px solid #7cc54b;
+  border-color: #7cc54b;
+  border-left: 1px solid #7cc54b;
+  border-radius: 30px;
+  border-top: 1px solid #7cc54b;
+  color: #fff;
+  text-shadow: 0 5px 1px #333;
+}
+/*-------------------------------------------------
+                    footer-area
+-------------------------------------------------*/
+
+.footer-area {
+  background: #f0f0f0 none repeat scroll 0 0;
+  padding: 40px 0;
+}
+.footer-area ul {}
+.footer-area ul li {
+  display: inline-block;
+}
+.footer-area ul li a {
+  color: #000000;
+  margin-right: 15px;
+}
+.social-link a {
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 20px;
+  color: #676767;
+}

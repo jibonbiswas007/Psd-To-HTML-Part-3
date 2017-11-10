@@ -1,0 +1,78 @@
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+.mainmenu ul li a {
+  padding-left: 55px;
+}
+    
+}
+    
+
+/* tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    
+.mainmenu ul li a {
+  padding-left: 70px;
+}    
+
+
+}
+
+    
+    
+/* Small Mobile :320px. */
+
+@media (max-width: 767px) {
+.logo {
+  padding: 30px 0;
+  text-align: center;
+}
+.mainmenu ul li a {
+  font-size: 11px;
+  padding: 20px 0 20px 11px;
+}
+.mainmenu {
+  text-align: center;
+}
+.big-blog-box .blog-fetured-content {
+  margin-bottom: 30px;
+}
+.single-blog-item {
+  margin-bottom: 50px;
+}
+.footer-area {
+  text-align: center;
+}
+.footer-area ul {
+  margin-bottom: 10px;
+}
+.footer-area ul li a {
+  margin: 0 10px;
+}
+.text-right {
+  text-align: center;
+}
+.load-more-btn-wrapper {
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+}
+    
+    
+    
+/* Large Mobile :480px. */
+
+
+
+}
